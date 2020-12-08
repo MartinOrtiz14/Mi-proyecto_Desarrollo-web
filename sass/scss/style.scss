@@ -208,7 +208,18 @@
   table {
     border-collapse: collapse;
   }
-  
+  .tablaTour{
+    justify-content: center;
+    margin: auto;
+  }
+
+  .escuchar{
+    display: flex;
+    margin: auto;
+    margin-top: 3rem;
+    justify-content: center;
+  }
+
   caption {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
@@ -478,6 +489,7 @@ footer{
     .navbar-expand-lg .navbar-collapse {
       display: flex !important;
       flex-basis: auto;
+      justify-content: center;
     }
     .navbar-expand-lg .navbar-toggler {
       display: none;
@@ -742,7 +754,27 @@ header{
     }
   }
 
-  
+.text-instrument{
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+}
+
+.text-instrument__description{
+  font-size: 0.8rem;
+  display: flex;
+  padding: 3rem;
+}
+
+.subtitulosTrayectoria{
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  font-weight: normal;
+}
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
 
@@ -7329,7 +7361,10 @@ button.bg-dark:focus {
   border-radius: 0.3rem !important; }
 
 .rounded-circle {
-  border-radius: 50% !important; }
+  border-radius: 50% !important;
+  size: 0.1rem;
+  margin-bottom: 5rem;
+ }
 
 .rounded-pill {
   border-radius: 50rem !important; }
@@ -8406,9 +8441,9 @@ button.bg-dark:focus {
 .my-auto {
   margin-bottom: auto !important; }
 
-.ml-auto,
-.mx-auto {
-  margin-left: auto !important; }
+// .ml-auto,
+// .mx-auto {
+//   margin-left: auto !important; }
 
 @media (min-width: 576px) {
   .m-sm-0 {
@@ -9638,9 +9673,9 @@ button.bg-dark:focus {
 .my-auto {
   margin-bottom: auto !important; }
 
-.ml-auto,
-.mx-auto {
-  margin-left: auto !important; }
+// .ml-auto,
+// .mx-auto {
+//   margin-left: auto !important; }
 
 @media (min-width: 576px) {
   .m-sm-0 {
